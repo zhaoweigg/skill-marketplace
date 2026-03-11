@@ -1,31 +1,60 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "personal-skills",
   "description": "Personal skills marketplace for stock analysis, market sentiment, and swing trading",
+  "version": "1.0.0",
+  "owner": {
+    "name": "zhaoweigg",
+    "url": "https://github.com/zhaoweigg"
+  },
   "plugins": [
     {
       "name": "stock-research",
       "description": "Comprehensive stock research and analysis for investment decisions",
-      "source": "./skills/trading/stock-research",
-      "category": "finance"
+      "version": "1.0.0",
+      "author": "zhaoweigg",
+      "category": "finance",
+      "tags": ["stocks", "research", "investment", "due-diligence"],
+      "license": "MIT",
+      "repository": "https://github.com/zhaoweigg/skill-marketplace",
+      "source": "./skills/stock-research"
     },
     {
       "name": "market-sentiment-analyzer",
       "description": "Market sentiment analysis for US equities swing trading decisions",
-      "source": "./skills/trading/market-sentiment-analyzer",
-      "category": "finance"
+      "version": "1.0.0",
+      "author": "zhaoweigg",
+      "category": "finance",
+      "tags": ["sentiment", "swing-trading", "market-analysis"],
+      "license": "MIT",
+      "repository": "https://github.com/zhaoweigg/skill-marketplace",
+      "source": "./skills/market-sentiment-analyzer"
     },
     {
       "name": "growth-swing-trader",
       "description": "Swing trade analysis for high-growth stocks using market regime detection",
-      "source": "./skills/trading/growth-swing-trader",
-      "category": "finance"
+      "version": "1.0.0",
+      "author": "zhaoweigg",
+      "category": "finance",
+      "tags": ["growth-stocks", "swing-trading", "regime-detection"],
+      "license": "MIT",
+      "repository": "https://github.com/zhaoweigg/skill-marketplace",
+      "source": "./skills/growth-swing-trader"
     },
     {
       "name": "market-conditions-rubric",
       "description": "Scored market conditions rubric rating 9 key dimensions on a 1-10 scale",
-      "source": "./skills/trading/market-conditions-rubric",
-      "category": "finance"
+      "version": "1.0.0",
+      "author": "zhaoweigg",
+      "category": "finance",
+      "tags": ["market-conditions", "scoring", "dashboard"],
+      "license": "MIT",
+      "repository": "https://github.com/zhaoweigg/skill-marketplace",
+      "source": "./skills/market-conditions-rubric"
     }
-  ]
+  ],
+  "metadata": {
+    "tier": "stable",
+    "audience": "personal",
+    "note": "Personal skills for stock analysis, market sentiment, and swing trading"
+  }
 }
