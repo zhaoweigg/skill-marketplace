@@ -16,7 +16,7 @@
       "tags": ["stocks", "research", "investment", "due-diligence"],
       "license": "MIT",
       "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./skills/stock-research"
+      "source": "./plugins/stock-research"
     },
     {
       "name": "market-sentiment-analyzer",
@@ -27,7 +27,7 @@
       "tags": ["sentiment", "swing-trading", "market-analysis"],
       "license": "MIT",
       "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./skills/market-sentiment-analyzer"
+      "source": "./plugins/market-sentiment-analyzer"
     },
     {
       "name": "growth-swing-trader",
@@ -38,7 +38,7 @@
       "tags": ["growth-stocks", "swing-trading", "regime-detection"],
       "license": "MIT",
       "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./skills/growth-swing-trader"
+      "source": "./plugins/growth-swing-trader"
     },
     {
       "name": "market-conditions-rubric",
@@ -49,10 +49,11 @@
       "tags": ["market-conditions", "scoring", "dashboard"],
       "license": "MIT",
       "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./skills/market-conditions-rubric"
+      "source": "./plugins/market-conditions-rubric"
     }
   ],
   "metadata": {
+    "description": "Personal skills marketplace for stock analysis, market sentiment, and swing trading",
     "tier": "stable",
     "audience": "personal",
     "note": "Personal skills for stock analysis, market sentiment, and swing trading"

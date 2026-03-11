@@ -6,10 +6,10 @@ All skills available in this marketplace.
 
 | Skill | Description | Key Triggers |
 |-------|-------------|--------------|
-| [stock-research](../skills/stock-research/) | Comprehensive investment research report (5 analysis pillars) | "Research [company]", "Analyze [ticker]", "Should I buy [ticker]?" |
-| [market-sentiment-analyzer](../skills/market-sentiment-analyzer/) | Multi-factor sentiment analysis for swing trading decisions | "Should I swing trade now?", "What are market conditions?" |
-| [growth-swing-trader](../skills/growth-swing-trader/) | Regime-based timing for high-growth, high-volatility stocks | "Is the market risk-on?", "Analyze [SOFI/COIN/UPST] for swing" |
-| [market-conditions-rubric](../skills/market-conditions-rubric/) | Scored market conditions across 9 dimensions (1-10 scale) | "Score the market", "Market health check", "Market rubric" |
+| [stock-research](../plugins/stock-research/) | Comprehensive investment research report (5 analysis pillars) | "Research [company]", "Analyze [ticker]", "Should I buy [ticker]?" |
+| [market-sentiment-analyzer](../plugins/market-sentiment-analyzer/) | Multi-factor sentiment analysis for swing trading decisions | "Should I swing trade now?", "What are market conditions?" |
+| [growth-swing-trader](../plugins/growth-swing-trader/) | Regime-based timing for high-growth, high-volatility stocks | "Is the market risk-on?", "Analyze [SOFI/COIN/UPST] for swing" |
+| [market-conditions-rubric](../plugins/market-conditions-rubric/) | Scored market conditions across 9 dimensions (1-10 scale) | "Score the market", "Market health check", "Market rubric" |
 
 ---
 

@@ -16,11 +16,11 @@ echo ""
 echo "Marketplace added. Available plugins:"
 echo ""
 
-# List available skills
-for skill_dir in "$REPO_DIR"/skills/*/; do
-  [ -f "$skill_dir/SKILL.md" ] || continue
-  skill_name="$(basename "$skill_dir")"
-  echo "  $skill_name@$MARKETPLACE_NAME"
+# List available plugins
+for plugin_dir in "$REPO_DIR"/plugins/*/; do
+  [ -f "$plugin_dir/.claude-plugin/plugin.json" ] || continue
+  plugin_name="$(basename "$plugin_dir")"
+  echo "  $plugin_name@$MARKETPLACE_NAME"
 done
 
 echo ""

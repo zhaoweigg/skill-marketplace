@@ -2,20 +2,33 @@
 
 Guide for adding a new skill to this marketplace.
 
-## 1. Create the skill directory
+## 1. Create the plugin directory structure
 
 ```bash
-mkdir -p skills/<skill-name>/assets
+mkdir -p plugins/<plugin-name>/.claude-plugin
+mkdir -p plugins/<plugin-name>/skills/<skill-name>
 ```
 
-Use `kebab-case` for the skill name. Keep it short and descriptive.
+Use `kebab-case` for names. Keep them short and descriptive.
 
-## 2. Write the SKILL.md
+## 2. Create the plugin manifest
+
+Create `plugins/<plugin-name>/.claude-plugin/plugin.json`:
+
+```json
+{
+  "name": "<plugin-name>",
+  "description": "One-line description of what this plugin does",
+  "version": "1.0.0"
+}
+```
+
+## 3. Write the SKILL.md
 
 Copy `templates/SKILL_TEMPLATE.md` as a starting point:
 
 ```bash
-cp templates/SKILL_TEMPLATE.md skills/<skill-name>/SKILL.md
+cp templates/SKILL_TEMPLATE.md plugins/<plugin-name>/skills/<skill-name>/SKILL.md
 ```
 
 The SKILL.md has two parts:
@@ -32,43 +45,43 @@ description: >
 
 **Body**: Step-by-step instructions Claude follows when the skill is invoked. Write it as a clear workflow, not a description. Claude will execute these instructions literally.
 
-## 3. Write the README.md
+## 4. Write the README.md
 
 ```bash
-cp templates/README_TEMPLATE.md skills/<skill-name>/README.md
+cp templates/README_TEMPLATE.md plugins/<plugin-name>/skills/<skill-name>/README.md
 ```
 
 The README is for humans — document trigger phrases, example output, and any assets.
 
-## 4. Add assets (optional)
+## 5. Add assets (optional)
 
-Put reference docs, templates, or sample data in `assets/`. Reference them in SKILL.md with relative paths like `assets/filename.md`.
+Put reference docs, templates, or sample data in `assets/` next to SKILL.md. Reference them in SKILL.md with relative paths like `assets/filename.md`.
 
-## 5. Register in marketplace.json
+## 6. Register in marketplace.json
 
 Add an entry to `.claude-plugin/marketplace.json`:
 
 ```json
 {
-  "name": "skill-name",
+  "name": "<plugin-name>",
   "description": "One-line description",
   "version": "1.0.0",
-  "author": "zhaoweigg",
+  "author": { "name": "zhaoweigg" },
   "category": "finance",
   "tags": ["relevant", "tags"],
   "license": "MIT",
   "repository": "https://github.com/zhaoweigg/skill-marketplace",
-  "source": "./skills/<skill-name>"
+  "source": "./plugins/<plugin-name>"
 }
 ```
 
-## 6. Validate
+## 7. Validate
 
 ```bash
 ./scripts/validate-skills.sh
 ```
 
-## 7. Update the catalog
+## 8. Update the catalog
 
 Add your skill to `docs/catalog.md`.
 
