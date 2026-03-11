@@ -8,48 +8,15 @@
   },
   "plugins": [
     {
-      "name": "stock-research",
-      "description": "Comprehensive stock research and analysis for investment decisions",
+      "name": "trading",
+      "description": "Stock analysis, market sentiment, swing trading, and market conditions skills",
       "version": "1.0.0",
       "author": { "name": "zhaoweigg" },
       "category": "finance",
-      "tags": ["stocks", "research", "investment", "due-diligence"],
+      "tags": ["stocks", "trading", "sentiment", "market-analysis", "swing-trading"],
       "license": "MIT",
       "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./plugins/stock-research"
-    },
-    {
-      "name": "market-sentiment-analyzer",
-      "description": "Market sentiment analysis for US equities swing trading decisions",
-      "version": "1.0.0",
-      "author": { "name": "zhaoweigg" },
-      "category": "finance",
-      "tags": ["sentiment", "swing-trading", "market-analysis"],
-      "license": "MIT",
-      "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./plugins/market-sentiment-analyzer"
-    },
-    {
-      "name": "growth-swing-trader",
-      "description": "Swing trade analysis for high-growth stocks using market regime detection",
-      "version": "1.0.0",
-      "author": { "name": "zhaoweigg" },
-      "category": "finance",
-      "tags": ["growth-stocks", "swing-trading", "regime-detection"],
-      "license": "MIT",
-      "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./plugins/growth-swing-trader"
-    },
-    {
-      "name": "market-conditions-rubric",
-      "description": "Scored market conditions rubric rating 9 key dimensions on a 1-10 scale",
-      "version": "1.0.0",
-      "author": { "name": "zhaoweigg" },
-      "category": "finance",
-      "tags": ["market-conditions", "scoring", "dashboard"],
-      "license": "MIT",
-      "repository": "https://github.com/zhaoweigg/skill-marketplace",
-      "source": "./plugins/market-conditions-rubric"
+      "source": "./plugins/trading"
     }
   ],
   "metadata": {
