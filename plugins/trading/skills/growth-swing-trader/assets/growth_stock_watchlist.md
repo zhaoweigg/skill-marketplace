@@ -19,18 +19,20 @@ This list is a starting point. The user may have their own preferred names. What
 - **Robinhood (HOOD)** — trading platform, revenue tied to market activity
 - **Affirm (AFRM)** — BNPL, revenue growth from merchant adoption
 - **Upstart (UPST)** — AI lending, highly volatile, huge moves on sentiment shifts
-- **Block (XYZ)** — Cash App + Square, growth in ecosystem
 
 ### Crypto-Adjacent
-- **Coinbase (COIN)** — crypto exchange, revenue directly tied to crypto sentiment
 - **Marathon Digital (MARA)** — Bitcoin mining, leveraged play on BTC price
 - **MicroStrategy (MSTR)** — Bitcoin treasury company, extreme beta to BTC
+- **Bitdeer Technologies (BMNR)** — Bitcoin mining and ASIC chip development, leveraged crypto play
 
 ### High-Growth Tech
 - **Palantir (PLTR)** — AI/data analytics, growing commercial business
 - **CrowdStrike (CRWD)** — cybersecurity, premium growth story
 - **Datadog (DDOG)** — cloud monitoring, high revenue retention
 - **Monday.com (MNDY)** — work management SaaS
+
+### Social / Community
+- **Reddit (RDDT)** — social platform, growing ad revenue, strong community engagement and data licensing potential
 
 ### Consumer / E-Commerce
 - **Carvana (CVNA)** — online used car platform, turnaround story
