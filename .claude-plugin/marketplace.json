@@ -1,7 +1,7 @@
 {
   "name": "personal-skills",
   "description": "Personal skills marketplace for stock analysis, market sentiment, and swing trading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "owner": {
     "name": "zhaoweigg",
     "url": "https://github.com/zhaoweigg"
