@@ -10,7 +10,7 @@
     {
       "name": "trading",
       "description": "Stock analysis, market sentiment, swing trading, and market conditions skills",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": { "name": "zhaoweigg" },
       "category": "finance",
       "tags": ["stocks", "trading", "sentiment", "market-analysis", "swing-trading"],
