@@ -95,3 +95,10 @@ if [ $errors -gt 0 ] || [ $marketplace_ok -ne 0 ]; then
 else
   echo "All skills valid. $warnings warning(s)."
 fi
+
+# Run official plugin validation if claude CLI is available
+if command -v claude &>/dev/null; then
+  echo ""
+  echo "Running claude plugin validate..."
+  claude plugin validate "$REPO_DIR"
+fi
