@@ -1,12 +1,30 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "personal-skills",
-  "description": "Personal skills for stock analysis and market sentiment analysis",
+  "description": "Personal skills marketplace for stock analysis, market sentiment, and swing trading",
   "plugins": [
     {
-      "name": "personal-skills",
-      "description": "Personal skills for stock analysis and market sentiment analysis",
-      "source": ".",
+      "name": "stock-research",
+      "description": "Comprehensive stock research and analysis for investment decisions",
+      "source": "./skills/trading/stock-research",
+      "category": "finance"
+    },
+    {
+      "name": "market-sentiment-analyzer",
+      "description": "Market sentiment analysis for US equities swing trading decisions",
+      "source": "./skills/trading/market-sentiment-analyzer",
+      "category": "finance"
+    },
+    {
+      "name": "growth-swing-trader",
+      "description": "Swing trade analysis for high-growth stocks using market regime detection",
+      "source": "./skills/trading/growth-swing-trader",
+      "category": "finance"
+    },
+    {
+      "name": "market-conditions-rubric",
+      "description": "Scored market conditions rubric rating 9 key dimensions on a 1-10 scale",
+      "source": "./skills/trading/market-conditions-rubric",
       "category": "finance"
     }
   ]

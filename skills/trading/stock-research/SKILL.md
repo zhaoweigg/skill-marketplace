@@ -73,32 +73,32 @@ This skill produces a professional investment research report analyzing a compan
 
 Load and apply relevant reference frameworks:
 
-**Financial Analysis** - Read `references/financial_metrics.md`
+**Financial Analysis** - Read `assets/financial_metrics.md`
 - Calculate and interpret key ratios
 - Assess trends over time (improving or deteriorating?)
 - Compare to industry benchmarks
 - Identify red flags
 
-**Valuation Analysis** - Read `references/valuation_methods.md`
+**Valuation Analysis** - Read `assets/valuation_methods.md`
 - Calculate multiple valuation metrics (P/E, PEG, EV/EBITDA, P/FCF)
 - Compare to historical valuations
 - Compare to peer valuations
 - Estimate fair value range (bull/base/bear cases)
 - Determine margin of safety
 
-**Competitive Analysis** - Read `references/competitive_analysis.md`
+**Competitive Analysis** - Read `assets/competitive_analysis.md`
 - Apply Porter's Five Forces
 - Assess competitive moat (narrow/moderate/wide)
 - Evaluate market position and share trends
 - Identify competitive advantages and vulnerabilities
 
-**Risk Assessment** - Read `references/risk_framework.md`
+**Risk Assessment** - Read `assets/risk_framework.md`
 - Categorize risks: business, financial, market, macro, governance
 - Rate severity of each risk category (Low/Medium/High)
 - Identify red flags or disqualifying factors
 - Note risk mitigation factors
 
-**Catalyst Analysis** - Read `references/catalyst_framework.md`
+**Catalyst Analysis** - Read `assets/catalyst_framework.md`
 - Identify potential positive catalysts across all categories
 - Assess probability, impact, and timeline for each
 - Determine if catalysts are priced into current valuation
@@ -436,7 +436,7 @@ IMPORTANT DISCLAIMERS
 
 ### Step 5: Deliver Report
 
-1. Save the report to `/mnt/user-data/outputs/`
+1. Save the report to the current working directory or display it directly to the user if no writable path is available
 2. Use filename format: `[TICKER]_Stock_Research_[DATE].md`
 3. Present the file to the user using the present_files tool
 4. Offer brief 2-3 sentence summary

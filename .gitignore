@@ -1,0 +1,14 @@
+# Packaged skill files (source directories are canonical)
+*.skill
+
+# Generated HTML review artifacts
+*.html
+
+# Skill outputs (generated per-session)
+**/outputs/
+
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# OS files
+.DS_Store

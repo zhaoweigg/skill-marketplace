@@ -29,14 +29,16 @@ This is the most important step. The market regime determines everything else.
 **Search for these indicators using WebSearch:**
 
 **A. VIX and Volatility Structure**
-- Search: "VIX current value today"
-- Search: "CBOE VIX closing price"
-- Search: "VIX term structure contango backwardation"
+- Use investing.com as the sole source for VIX data. Do NOT use Yahoo Finance for VIX data.
+- Search: "investing.com VIX index today"
+- Search: "site:investing.com CBOE VIX"
+- Search: "investing.com VIX term structure contango backwardation"
+- If WebFetch is available, fetch directly from https://www.investing.com/indices/volatility-s-p-500 for the most current VIX reading
 - Risk-on signal: VIX below 18, term structure in contango (front month cheaper than back months)
 - Risk-off signal: VIX above 25, term structure in backwardation (front month more expensive — market is paying up for near-term protection)
 - Transitional: VIX 18-25, watch the direction of movement
 
-**Handling conflicting VIX data:** Web searches sometimes return stale or intraday values that conflict with each other. If you get conflicting readings, run a third search ("VIX index level March [current date]") and use the most recent closing price. Also check: was there a recent spike followed by a pullback? Both readings can be true — a VIX that spiked to 25 and is now at 17 is *not* the same as a VIX that has been stable at 17. Use the trend (rising/falling) as much as the level. Always state the VIX level you are using in your report and note if there is conflicting data.
+**Handling conflicting VIX data:** If web searches return conflicting values, fetch the VIX directly from investing.com and use that as the authoritative source. Ignore any VIX values sourced from Yahoo Finance. Also check: was there a recent spike followed by a pullback? Both readings can be true — a VIX that spiked to 25 and is now at 17 is *not* the same as a VIX that has been stable at 17. Use the trend (rising/falling) as much as the level. Always state the VIX level you are using in your report and note if there is conflicting data.
 
 **B. Growth vs Value Relative Performance**
 - Search: "IWF vs IWD performance this week" (iShares Growth vs Value ETFs)
@@ -157,7 +159,7 @@ Combine all three analyses into an actionable signal.
 
 ### Step 5: Compile the Report
 
-Save the analysis as a markdown file to `/sessions/keen-optimistic-heisenberg/mnt/outputs/`.
+Save the analysis as a markdown file to the current working directory or display it directly to the user if no writable path is available.
 
 Use filename format: `[TICKER]_swing_analysis_[DATE].md`
 
@@ -302,5 +304,5 @@ The choice depends on what's driving the risk-off move. If it's growth fears, TL
 
 ## Resources
 
-- **references/regime_indicators.md** — Detailed guide to interpreting each regime indicator with historical context and thresholds
-- **references/growth_stock_watchlist.md** — Curated list of high-growth stocks well-suited for this strategy, with key metrics to track
+- **assets/regime_indicators.md** — Detailed guide to interpreting each regime indicator with historical context and thresholds
+- **assets/growth_stock_watchlist.md** — Curated list of high-growth stocks well-suited for this strategy, with key metrics to track
