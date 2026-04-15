@@ -1,7 +1,7 @@
 {
   "name": "personal-skills",
   "description": "Personal skills marketplace for stock analysis, market sentiment, and swing trading",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "owner": {
     "name": "zhaoweigg",
     "url": "https://github.com/zhaoweigg"
@@ -10,7 +10,7 @@
     {
       "name": "trading",
       "description": "Stock analysis, market sentiment, swing trading, and market conditions skills",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": { "name": "zhaoweigg" },
       "category": "finance",
       "tags": ["stocks", "trading", "sentiment", "market-analysis", "swing-trading"],
